@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,cyrillic-ext');
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+	background-color: #ccc;
+}
+.main-bg {
+	background-color: #232f3e;
+	padding:0;
+	position: relative;
+}
+.logSide{
+	background-color: #e2e7f0;
+	text-align: center;
+	}
+.navbar-a{
+	margin-right: 50px;
+	float: right;
+	border-bottom: 1px solid white;
+}
+.navbar-a a{
+	display: inline-block;
+	margin: 10px 0px 20px 55px;
+	font-style: 16px;
+	text-transform: uppercase;
+	color: white;
+}
+.navbar-a a:first-child{
+	margin-left: 0px;
+}
+.navbar-a a:hover{
+	text-decoration: none;
+	color:#586fba;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.social-media{
+	color: #FFF;
+	text-align: right;
+	margin-right: 50px;
+	padding-top: 10px;
+}

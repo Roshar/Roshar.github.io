@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap</title>
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+<div id="container" class="container bg-3">
+	<script>document.write('<script src="http://'
+	 + (location.host || 'localhost').split(':')
+	 [0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+	</script>
+		<div class="row">
+		 <div class="col-md-3 logSide">
+		 	<h4>Чеченский институт  повышения квалификации работников образования</h4>
+		 </div>
+		 <!-- sidebar -->
+		 <div class="col-md-9 navrow">
+		 <div class="clearfix">
+		 <div class="open-side">
+		     <a href="#" onclick="openSideNav()">
+		        <svg width="30" height="30">
+		            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+		            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+		            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+		        </svg>
+		     </a>
+     </div>
+    	<div class="eyes">
+    			<i class="fas fa-low-vision"></i>
+    		</a>		
+		 	</div>
+		 	<div class="search">
+		 			<i class="fas fa-search"></i>
+		 	</div>
+		 	 <nav class="navbar-a">
+		 			 <a href="#">институт</a>
+		 			 <a href="#">деятельность</a>
+		 			 <a href="#">пресс-служба</a>
+		 			 <a href="#">документы</a>
+		 			 <a href="#">контакты</a>
+		 	 </nav>
+		 	 <div class="social">	
+		 	 	<a href="	"><i class="fab fa-facebook"></i></a>
+				<a href="	"><i class="fab fa-vk"></i> </a>		
+				<a href="	"><i class="fab fa-instagram"></i> </a>		
+				<a href="	"><i class="fab fa-twitter-square"></i> </a>	
+				<a href="	"><i class="fas fa-rss-square"></i></a>		
+					<a href="" class="lang"> English version </a>
+		 	 </div>
+		 </div>
+		 </div>
+		<!-- end sidebar -->
+		<!--  элементы поиска -->
+		</div> 
+</div>
+<div class="container-fluid">
+		 	<div id="side-menu" class="side-nav">
+    			 <a href="#" class="btn-close" onclick="closeSideNav()">&times;</a>
+    			 <a href="#">институт</a>
+		 			 <a href="#">деятельность</a>
+		 			 <a href="#">пресс-служба</a>
+		 			 <a href="#">документы</a>
+		 			 <a href="#">контакты</a>
+  		</div>
+</div>
+<script>
+	function openSideNav(){
+		document.getElementById("side-menu").style.width="250px"
+
+	}
+	function closeSideNav(){
+		document.getElementById("side-menu").style.width="0"
+
+	}
+</script>
+</body>
+</html>
