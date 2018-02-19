@@ -31,10 +31,10 @@ a:hover{
 	background-color: #e2e7f0;
 	text-align: center;
 }
-
 /*	/////////////////////////////////////////////*/
 /*style for right side
 //////////////////////////////////*/
+
 .open-side{
 	display: none;
 }
@@ -157,6 +157,27 @@ end style for right SIDE
 .search:hover{
 	background-color: #41579e;
 }
+/*rules for slide_news START
+/////////////////////////////////////////////
+*/
+.news-slide{
+	background-color:#fff;
+}
+.news-slide h4{
+	margin:8px 0;
+}
+.main-img{
+	width:100%;
+}
+.main-img img{
+	width:100%;
+
+}
+
+
+/*rules for slide_news END
+/////////////////////////////////////////////
+*/
 
 @media (max-width: 992px) {
 	.navbar-a{
@@ -204,7 +225,7 @@ end style for right SIDE
 	float:right;
 	padding:6px 12px;
 }
-.social {
+	.social {
 	position:relative;
 	left:30px;
 	top:5px;

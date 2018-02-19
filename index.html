@@ -11,7 +11,7 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
-<div id="container" class="container bg-3">
+<div class="container bg-3">
 	<script>document.write('<script src="http://'
 	 + (location.host || 'localhost').split(':')
 	 [0] + ':35729/livereload.js?snipver=1"></' + 'script>')
@@ -70,15 +70,28 @@
 		 			 <a href="#">контакты</a>
   		</div>
 </div>
+<div class="container news-slide">
+	<div class="row">
+		<div class="col-md-4">
+			<h4>Новости</h4>
+			<div class="main-img">
+				<img src="img/demo.jpg" alt="demo">
+			</div>
+		</div>
+		<div class="col-md-8 news_title">
+				<span class="date">22 января <br>
+				14:18</span>
+		</div>
+	</div>
+</div>
 <script>
 	function openSideNav(){
 		document.getElementById("side-menu").style.width="250px"
-
 	}
 	function closeSideNav(){
 		document.getElementById("side-menu").style.width="0"
-
 	}
+
 </script>
 </body>
 </html>
