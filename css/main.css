@@ -175,15 +175,32 @@ end style for right SIDE
 }
 .news_title{
 	position:relative;
-
 }
-.date{
+.short_news{
+	position: relative;
+}
+.short_list,.news_title{
+	padding-top: 30px;
+}
+.short_list{
+/*	border-left: 4px solid #ccc;
+	padding-left: 10px;*/
+}
+.date_line{
 	position:relative;
 	display:inline-block;
-	top:16px;
-	margin:20px 0;
 }
-
+.date_line_r{
+	position:relative;
+	display:inline-block;
+}
+.date_title{
+	color:#586fba; font-size:12px;font-weight:bold;text-transform:uppercase;
+}
+p.short_text{
+	margin-top: 4px;
+	margin-bottom: 13px;
+}
 /*rules for slide_news END
 /////////////////////////////////////////////
 */
@@ -197,13 +214,13 @@ end style for right SIDE
 		display: block;
 		position:relative;
 		z-index:1;
-
 	}
+
 	.open-side a{
 		float:right;
 		padding:6px 11px;
-
 	}
+
 	.search{
 		position:relative;
 		top:0;
@@ -224,17 +241,6 @@ end style for right SIDE
 		border-right: 1px solid rgba(255, 255, 255, .5);
 		padding-left:0;
 	}
-/*	.eyes{
-	
-	float: right;
-	margin-right:5px;
-	background-color: #37475a;
-	color: #FFF;
-	font-size: 2em;
-	margin-left: 6px;
-	padding: 5px 9px;
-}*/
-
 
 	.search:hover{
 			background-color:#232f3e;
