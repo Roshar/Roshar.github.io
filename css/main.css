@@ -133,6 +133,7 @@ end style for right SIDE
 	font-size: 2em;
 	margin-left: 6px;
 	padding: 5px 9px;
+	z-index:1;
 }
 
 .eyes:hover{
@@ -171,9 +172,17 @@ end style for right SIDE
 }
 .main-img img{
 	width:100%;
+}
+.news_title{
+	position:relative;
 
 }
-
+.date{
+	position:relative;
+	display:inline-block;
+	top:16px;
+	margin:20px 0;
+}
 
 /*rules for slide_news END
 /////////////////////////////////////////////
@@ -185,9 +194,16 @@ end style for right SIDE
 	}
 
 	.open-side{
-	display: block;
-	}
+		display: block;
+		position:relative;
+		z-index:1;
 
+	}
+	.open-side a{
+		float:right;
+		padding:6px 11px;
+
+	}
 	.search{
 		position:relative;
 		top:0;
@@ -202,11 +218,23 @@ end style for right SIDE
 
 	.eyes{
 		position:relative;
-		top:0;
+		display: inline-block;
 		background-color:#232f3e;
 		cursor:pointer;
 		border-right: 1px solid rgba(255, 255, 255, .5);
+		padding-left:0;
 	}
+/*	.eyes{
+	
+	float: right;
+	margin-right:5px;
+	background-color: #37475a;
+	color: #FFF;
+	font-size: 2em;
+	margin-left: 6px;
+	padding: 5px 9px;
+}*/
+
 
 	.search:hover{
 			background-color:#232f3e;
@@ -221,10 +249,7 @@ end style for right SIDE
 /*	border:1px solid red;*/
 	padding:2px;
 	}
-	.open-side a{
-	float:right;
-	padding:6px 12px;
-}
+
 	.social {
 	position:relative;
 	left:30px;
