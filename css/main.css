@@ -7,14 +7,18 @@ body{
 	background-color: #ccc;
 	margin: 0;
 	padding: 0;
+	color:#191919;
+}
+.container{
+	background-color:#fff;
 }
 
 a {
-	color:#fff;
+	color:#586fba;
 }
 
 a:hover{
-	color:#fff;
+	color:#337ab7;
 	text-decoration: none;
 }
 
@@ -135,7 +139,9 @@ end style for right SIDE
 	padding: 5px 9px;
 	z-index:1;
 }
-
+.eyes a{
+	color:#fff;
+}
 .eyes:hover{
 	background-color: #41579e;
 }
@@ -154,7 +160,9 @@ end style for right SIDE
 	padding: 5px 12px;
 	z-index:1;
 }
-
+.search a{
+	color:#fff;
+}
 .search:hover{
 	background-color: #41579e;
 }
@@ -195,16 +203,74 @@ end style for right SIDE
 	display:inline-block;
 }
 .date_title{
-	color:#586fba; font-size:12px;font-weight:bold;text-transform:uppercase;
+	color:#586fba;
+	font-weight:700;
+	font-size:12px;
+	text-transform:uppercase;
+	letter-spacing: .7px
 }
 p.short_text{
 	margin-top: 4px;
 	margin-bottom: 13px;
 }
-/*rules for slide_news END
+.short_text a{
+	color:#191919;
+
+}
+.short_text a:hover{
+	color:#337ab7;
+}/*rules for slide_news END
 /////////////////////////////////////////////
 */
 
+/*subscribe for news */
+.subscribe_main{
+	margin:15px 0px;
+	padding:0;
+	padding-top:10px;
+	border-top:1px solid rgb(222,225,226);
+	background-color:#fff;
+}
+.subscribe_a{
+	padding:0;
+	font-weight:700;
+	text-transform:uppercase;
+	font-size:12px;
+	letter-spacing: .7px
+}
+
+form {
+	padding:0;
+	outline: none;
+}
+.field {
+	border:0;
+	font-size:0;
+}
+.field_inp{
+	min-width:160px;
+	width:50%;
+	display:inline-block;
+	height: 30px;
+  color: #999;
+  font-family: "PT Sans", sans-serif;
+  border: 1px solid #e2e7f0;
+  outline: none;
+  padding: 5px 7px;
+  -webkit-appearance: none;
+  font-size:10px;
+}
+.subscribe_btn{
+	border:0;
+	font-size:11px;
+	height:30px;
+	padding:6px 36px;
+	background-color:#e2e7f0;
+}
+
+.subscribe_btn:hover{
+	background: #c0cbdf;;
+}
 @media (max-width: 992px) {
 	.navbar-a{
 		display: none;
