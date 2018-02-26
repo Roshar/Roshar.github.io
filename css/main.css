@@ -336,12 +336,8 @@ input[type=text].field_inp{
 /*content documents
 //////////////////////////////////////////////////
 */
-.doc_content{
-	position: relative;
-}
-.doc_list{
 
-}
+
 .doc_list ul{
 	list-style-type: none;
 	padding: 0;
@@ -352,13 +348,13 @@ input[type=text].field_inp{
 }
 .doc_list a{
 	color:#333;
+
 }
 .doc_list a:hover{
 	color:#337ab7;
 }
-.doc_list_link{
-	position: absolute;
-	bottom: 0;
+.doc_list_link a{
+	font-weight: bold;
 
 }
 
