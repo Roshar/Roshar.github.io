@@ -274,9 +274,11 @@ form {
 	padding:0;
 	outline: none;
 }
+
 .subscribe_form{
 	padding-right:0;
 }
+
 .field {
 	border:0;
 	font-size:0;
@@ -287,13 +289,13 @@ input[type=text].field_inp{
 	width:60%;
 	display:inline-block;
 	height: 30px;
-  color: #999;
-  font-family: "PT Sans", sans-serif;
-  border: 1px solid #e2e7f0;
-  outline: none;
-  padding: 5px 7px;
-  -webkit-appearance: none;
-  font-size:12px;
+ 	color: #999;
+	font-family: "PT Sans", sans-serif;
+	border: 1px solid #e2e7f0;
+	outline: none;
+	padding: 5px 7px;
+	-webkit-appearance: none;
+	font-size:12px;
 }
 
 .subscribe_btn{
@@ -314,6 +316,9 @@ input[type=text].field_inp{
 	height:51px;
 	border-bottom:1px solid #e2e7f0;
 }
+/*seminars and conference
+///////////////////////////////////////////////////
+*/
 .conference{
 	background-color:#dee1e2;
 }
@@ -321,17 +326,37 @@ input[type=text].field_inp{
 	padding-left:0;
 }
 .b-article__date{
-	font-size: 12px;
+   font-size: 12px;
    text-transform: uppercase;
    color: #999;
    display: inline-block;
    margin: 0 0 7px;
    letter-spacing: .7px;
-	}	
+}	
 .conf:last-child {
     padding-right:0;
 }
 
+/*content documents
+//////////////////////////////////////////////////
+*/
+.doc_list{
+	padding: 0;
+}
+.doc_list ul{
+	list-style-type: none;
+	padding: 0;
+}
+.doc_list li{
+	line-height: 20px;
+	padding-top: 8px;
+}
+.doc_list a{
+	color:#333;
+}
+.doc_list a:hover{
+	color:#337ab7;
+}
 
 @media ( max-width:1199px){
 	.field_inp{
@@ -392,24 +417,31 @@ input[type=text].field_inp{
 	}
 	
 	.separator{
-		padding:0;
-		overflow:hidden;
-		height:81px;
-		border-bottom:1px solid #e2e7f0;
-}
-	input[type=text].field_inp{
-		width:83%;
+		height:101px;
+		border: none;
 	}
+	input[type=text].field_inp{
+		width:100%;
+	}
+
+	.subscribe_btn{
+	width: 100%;
+	margin-top: 10px;
+	}
+
 	.subscribe_form{
 		padding-left:0;
 	}
-
+	.conference{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
 }
-@media (max-width:705px) {
+/*@media (max-width:705px) {
 	input[type=text].field_inp{
 		width:63%;
-	}
+	}*/
 }
 @media (max-width: 599px) {
 	.social{
