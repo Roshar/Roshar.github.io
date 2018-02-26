@@ -7,7 +7,7 @@ body{
 	background-color: #ccc;
 	margin: 0;
 	padding: 0;
-	color:#191919;
+	color:#333;
 }
 
 .container{
@@ -241,7 +241,7 @@ p.short_text{
 }
 
 .short_text a{
-	color:#191919;
+	color:#333;
 }
 
 .short_text a:hover{
@@ -313,6 +313,23 @@ input[type=text].field_inp{
 	overflow:hidden;
 	height:51px;
 	border-bottom:1px solid #e2e7f0;
+}
+.conference{
+	background-color:#dee1e2;
+}
+.conf{
+	padding-left:0;
+}
+.b-article__date{
+	font-size: 12px;
+   text-transform: uppercase;
+   color: #999;
+   display: inline-block;
+   margin: 0 0 7px;
+   letter-spacing: .7px;
+	}	
+.conf:last-child {
+    padding-right:0;
 }
 
 
