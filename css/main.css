@@ -342,21 +342,39 @@ input[type=text].field_inp{
 	list-style-type: none;
 	padding: 0;
 }
+
 .doc_list li{
 	line-height: 20px;
 	padding-top: 8px;
 }
+
 .doc_list a{
 	color:#333;
-
 }
+
 .doc_list a:hover{
 	color:#337ab7;
 }
+
 .doc_list_link a{
 	font-weight: bold;
-
 }
+
+.doc_list_link{
+	margin-bottom:15px;
+}
+
+.flex-bottom{
+	border-bottom:1px solid #e2e7f0;
+	margin-bottom:20px;
+}
+/*section Current
+/////////////////////////////////////////////////
+*/
+.list_current{
+	background-image:url();
+}
+
 
 @media ( max-width:1199px){
 	.field_inp{
@@ -389,7 +407,7 @@ input[type=text].field_inp{
 		border-right: 1px solid rgba(255, 255, 255, .5);
 	}
 	.eyes:hover{
-			background-color:#232f3e;
+		background-color:#232f3e;
 	}
 
 	.eyes{
@@ -407,9 +425,11 @@ input[type=text].field_inp{
 		margin:0;
 		padding:0;
 	}
+
 	.logSide{
 		padding:2px;
 	}
+
 	.social {
 		position:relative;
 		left:30px;
