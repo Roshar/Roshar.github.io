@@ -364,17 +364,36 @@ input[type=text].field_inp{
 	margin-bottom:15px;
 }
 
-.flex-bottom{
-	border-bottom:1px solid #e2e7f0;
-	margin-bottom:20px;
-}
 /*section Current
 /////////////////////////////////////////////////
 */
-.list_current{
-	background-image:url();
-}
 
+.current_sep{
+	width:98%;
+	padding-left:0;
+	margin-left:10px;
+	border-bottom: 1px solid #e2e7f0;
+	margin-bottom:20px;
+}
+.list_current_main{
+	display:inline-block;
+	position:relative;
+	vertical-align:top;
+	min-height:80px;
+	padding: 0 10px 0 65px;
+  margin: 10px 0 15px;
+  font-size:13px;
+}
+.list_current_img{
+	position:absolute;
+	top:0;
+	left:0;
+	width:55px;
+
+}
+.list_current_img img{
+width:55px;
+}
 
 @media ( max-width:1199px){
 	.field_inp{
