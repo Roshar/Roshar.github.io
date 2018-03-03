@@ -394,6 +394,62 @@ input[type=text].field_inp{
 .list_current_img img{
 width:55px;
 }
+/*VIDEO CONTENT 
+///////////////////////////////////////////////
+*/
+.video_content{
+	background-image: url(../img/videobg.jpg);
+    position: relative;
+    padding: 0;
+	z-index: 0;
+}
+.fontrans {
+	background-color: rgba(255, 255, 255, 0.8);
+	position: relative;
+	padding-top: 40px;
+	z-index: 2;
+}
+.fontrans h4{
+	padding-left: 15px;
+}
+
+.video_list_item{
+	display: inline-block;
+}
+
+.video_main{
+	position: relative;
+	padding-bottom: 33.25%;
+	padding-top: 10px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video_main iframe{
+	padding: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video_list {
+	position: relative;
+	padding-bottom: 16.25%;
+	padding-top: 10px;
+	height: 0;
+	overflow: hidden;
+}
+.video_list iframe{
+padding: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 
 @media ( max-width:1199px){
 	.field_inp{
@@ -474,8 +530,14 @@ width:55px;
 	.conference{
 	padding-top: 5px;
 	padding-bottom: 5px;
-}
-
+	}
+	.video_list {
+	display: none;
+	}
+	.video_main{
+	padding-bottom: 53.25%;
+	padding-top: 20px;
+	}
 }
 @media (max-width:705px) {
 	input[type=text].field_inp{
